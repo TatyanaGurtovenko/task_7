@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head><link rel="stylesheet" href="/scss/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/index.c92073ef.css">
+    <title>Task 7</title>
+</head>
+<body>
+<div class="wrapper">
+    <div id="root"></div>
+    <div class="btns">
+        <button class="btn-modal btn btn-primary">модальное окно с помощью jquery</button>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            модальное окно с помощью bootstrap
+        </button>
+    </div>
+    <div class="slider-item">
+        <h3>Слайдер на Jquery:</h3>
+        <div class="slider">
+            <div class="slider-line">
+                <img src="/img.60bd3c72.jpg" alt="">
+                <img src="/img-2.1de8f4cd.jpg" alt="">
+                <img src="/img.60bd3c72.jpg" alt="">
+            </div>
+        </div>
+        <button class="slider-prev">Назад</button>
+        <button class="slider-next">Вперед</button>
+        <div class="modal-wrapper">
+            <div class="modal-active">
+                <div class="modal-close">
+                    <img src="/close.cf02cf3a.png">
+                </div>
+                <div class="modal-window">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet odit perferendis quisquam sequi sunt,
+                    vero?
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="slider-item">
+        <h3>Слайдер Bootstrap:</h3>
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-wrap="false">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="/img.60bd3c72.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="/img.60bd3c72.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="/img.60bd3c72.jpg" alt="Third slide">
+                </div>
+            </div>
+        </div>
+        <div class="slider-controls">
+            <a class="" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+                Назад
+            </a>
+            <a class="" href="#carouselExampleControls" role="button" data-bs-slide="next">
+               Вперед
+            </a>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalLabel">Модальное окно</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet odit perferendis quisquam sequi sunt,
+                    vero?
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="/js/script.js" defer="">
+</script>
+</body>
+</html>

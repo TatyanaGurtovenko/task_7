@@ -1,0 +1,100 @@
+.wrapper {
+  max-width: 1000px;
+  margin: 20px auto;
+}
+
+.modal-wrapper {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  z-index: 1;
+  background: #000000b3;
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+.modal-active {
+  width: 350px;
+  height: 370px;
+  cursor: default;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 40px 20px;
+  position: absolute;
+  top: calc(50% - 250px);
+  left: calc(50% - 150px);
+}
+
+.modal-close {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.modal-close img {
+  width: 24px;
+  height: 24px;
+  margin: 3px;
+}
+
+.modal-window {
+  position: relative;
+}
+
+.slider {
+  width: 300px;
+  height: 300px;
+  margin: 20px auto;
+  overflow: hidden;
+}
+
+.slider-line {
+  width: 1024px;
+  height: 300px;
+  transition: all 1s;
+  display: flex;
+  position: relative;
+  left: 0;
+}
+
+.slider-line img {
+  width: 300px;
+  height: 300px;
+}
+
+.btns {
+  margin-bottom: 40px;
+}
+
+.slider-item {
+  margin: 20px 0;
+}
+
+.slider-controls {
+  max-width: 400px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px auto 0;
+  display: flex;
+  position: relative;
+}
+
+.slider-controls a {
+  width: 70px;
+  height: 30px;
+  text-align: center;
+  color: #000;
+  background: #faebd7;
+  display: block;
+}
+
+.carousel-inner {
+  max-height: 400px;
+}
+
+/*# sourceMappingURL=index.c92073ef.css.map */
